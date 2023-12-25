@@ -1,8 +1,5 @@
 # Nadra-identification-system-
 //CS101 PROJECT-NADRA IDENTIFICATION SYSTEM
-// OMAN SAID-2023575
-// M.JUNAID RAZA-2023313
-//M.AMMAR ALI-2023166
 #include <iostream>
 #include <string.h>
 using namespace std;
