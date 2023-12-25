@@ -114,3 +114,61 @@ int func(){
 							                    cout << "The entered CNIC number has an invalid District number\n";
 					                        }
 							break;
+						case '2':
+							cout << "Division of "  << name << " is:\tDERA ISMAIL KHAN\n";
+							switch (CNICnum[2])
+				                        	{
+					                        	case '1':
+							                        cout << "District of "  << name << " is:\tDERA ISMAIL KHAN\n";
+							                        switch (CNICnum[3])
+					                                {
+						                                case '0':
+						                                	cout << "Tehsil of "  << name << " is:\tDERA ISMAIL KHAN\n";
+						                                	switch (CNICnum[4])
+					                                        {
+					                                        	case '1':
+						                                        	cout << "Union Council of "  << name << " is:\tDERA ISMAIL KHAN\n";
+							                                    break;
+							                                    case '2':
+						                                        	cout << "Union Council of "  << name << " is:\tKulachi\n";
+							                                    break;
+							                                    case '3':
+						                                        	cout << "Union Council of "  << name << " is:\tPaharpur\n";
+							                                    break;
+							                                    case '4':
+						                                        	cout << "Union Council of "  << name << " is:\tDarabin\n";
+							                                    break;
+							                                    case '5':
+						                                        	cout << "Union Council of "  << name << " is:\tPerwa\n";
+							                                    break;
+							                                default:
+				                                            cout << "The entered CNIC has an invalid union council number\n";
+		                                               	}
+							                            break;
+							                        default:
+							                        cout << "The entered CNIC number has an invalid Tehsil number\n";
+				                                 	}
+						                        	break;
+						                        case '2':
+							                        cout << "District of "  << name << " is:\tTaank\n";
+							                        switch (CNICnum[3])
+					                                {
+						                                case '0':
+						                                	cout << "Tehsil of "  << name << " is:\tTaank\n";
+						                                	switch (CNICnum[4])
+					                                        {
+					                                        	case '1':
+						                                        	cout << "Union Council of "  << name << " is:\tTaank\n";
+							                                    break;
+							                                default:
+				                                            cout << "The entered CNIC has an invalid union council number\n";
+		                                               	}
+							                            break;
+							                        default:
+							                        cout << "The entered CNIC number has an invalid Tehsil number\n";
+				                                 	}
+						                        	break;
+						                    	default:
+							                    cout << "The entered CNIC number has an invalid District number\n";
+					                        }
+							break;
